@@ -8,4 +8,4 @@ run: main
 	./main
 
 clean:
-	rm main.o main.exe
+	rm main.o main.exe main
