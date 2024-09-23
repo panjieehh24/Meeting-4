@@ -9,10 +9,13 @@ int main() {
 	int n;
 	cin>>n;
 
-	for(int i=1; i<=10; i++)
+	int sum=0;
+
+	for(int i=1; i<=n; i++)
 	{
-		int cnt = n*i;
-		cout<<n<<" x "<<i<<" = "<<cnt<<'\n';
+		sum+=i;
 	}
+
+	cout<<"Sum = "<<sum<<'\n';
 	
 }
