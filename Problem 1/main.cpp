@@ -7,6 +7,7 @@ int main() {
 	cin.tie(nullptr);
 	
 	int n;
+	cin<<"Enter a number"<<endl;
 	cin>>n;
 
 	int sum=0;
@@ -17,5 +18,6 @@ int main() {
 	}
 
 	cout<<"Sum = "<<sum<<'\n';
+
 	
 }
