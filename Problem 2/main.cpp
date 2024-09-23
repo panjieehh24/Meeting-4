@@ -7,6 +7,7 @@ int main() {
 	cin.tie(nullptr);
 	
 	int n;
+	cout<<"Enter a number"<<endl;
 	cin>>n;
 
 	for(int i=1; i<=10; i++)
